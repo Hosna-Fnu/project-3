@@ -1,0 +1,228 @@
+body{
+  padding:10px;
+}
+.linkModel{
+text-align:center;
+background-color: yellow;
+font-size: 20px;
+padding: 10px;
+border-radius: 20px;
+text-decoration:none;
+}
+.linkModel:hover{
+  background-color: black;
+  color:lightyellow;
+}
+.modalWindow {
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: rgba(100,100,100,0.5);
+opacity: 0;
+pointer-events: none;
+}
+.modalWindow:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in 1s;
+}
+.msgText{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  top: 200px;
+  left: 600px;
+  padding:20px;
+}
+.msgText h3{
+  background-color: yellow;
+  padding:10px;
+  color:black;
+}
+.msgText img{
+  width:20%;
+  margin-left:40%;
+}
+.modal-close {
+padding: 10px;
+color: gray;
+text-decoration: none;
+}
+.modal-close:hover{
+  color:red;
+  background-color: underline;
+}
+.maincontainer{ <classActivity>
+  width: 100%;
+  margin-top: 50px;
+  height: 600px;
+}
+.item{
+  width: 400px;
+  height: 100%;
+  text-align: center;
+  float: left;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.item img{
+  width: 30%;
+  margin-left: 0%;
+  padding: 10px;
+}
+.itemText{
+  color: darkblue;
+  text-align: center;
+  font-weight: 600;
+}
+.itemTitle, .itemsubtitle, .itemprice{
+  text-align: center;
+  color: black;
+}
+.itemprice{
+  font-size: 1.3em;
+}
+.itemprom{
+  text-align: center;
+  color: red;
+  font-size: 0.9em;
+}
+.itemlink{
+  background-color: gray; rbgs
+  padding: 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+}
+.itemlink:hover{
+  color: black;
+  background-color: underline;
+}
+.itemlink{
+text-align:center;
+background-color: black;
+font-size: 20px;
+padding: 10px;
+border-radius: 20px;
+text-decoration:none;
+}
+.modalWindow1 {
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: rgba(100,100,100,0.5);
+opacity: 0;
+pointer-events: none;
+}
+.modalWindow1:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in 1s;
+}
+.itemTitle1{
+  color: red;
+}
+.msgText1{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  top: 200px;
+  left: 600px;
+  padding:20px;
+}
+.text1{
+  padding: 1%;
+}
+.textD{
+  color: red;
+}
+.msgText1{
+  background-color: white;
+  padding:10px;
+  color:black;
+}
+.msgText1 img{
+  width:20%;
+  margin-left:10%;
+}
+.modal-close1 {
+padding: 10px;
+color: gray;
+text-decoration: none;
+}
+.modal-close1:hover{
+color:red;
+background-color: underline;
+}
+.itemlink{ item#2
+text-align:center;
+background-color: black;
+font-size: 20px;
+padding: 10px;
+border-radius: 20px;
+text-decoration:none;
+}
+.modalWindow2 {
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: rgba(100,100,100,0.5);
+opacity: 0;
+pointer-events: none;
+}
+.modalWindow2:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in 1s;
+}
+.newText{
+  color: blue;
+}
+.itemTitle2{
+  color: red;
+}
+.text2{
+  padding: 1%;
+}
+.text6{
+  color: red;
+}
+.msgText2{
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  top: 200px;
+  left: 600px;
+  padding:20px;
+}
+.msgText2{
+  background-color: white;
+  padding:10px;
+  color:black;
+}
+.msgText2 img{
+  width:20%;
+  margin-left:10%;
+}
+.modal-close2 {
+padding: 10px;
+color: gray;
+text-decoration: none;
+}
+.modal-close2:hover{
+color:red;
+background-color: underline;
+}

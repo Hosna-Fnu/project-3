@@ -1,0 +1,76 @@
+body{
+  background-color:gray;
+  padding-top:30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+h1{
+  color:black;
+  text-align: center;
+  text-shadow:-20px -15px 7px purple;
+  font-family: fantasy;
+  font-size: 300%
+}
+.author{
+  color: purple;
+  font-size: 100%;
+  text-align: right;
+  font-size: "monotype corsiva";
+  font-style: italic;
+}
+p.intro::first-letter{
+  font-style: normal;
+  font-size: 300%;
+  color:purple;
+}
+p.intro{
+  font-style: normal;
+  font-size-adjust: 50px;
+}
+.img1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-left: 100px;
+  border:inset black 10px;
+  width: 300px;
+  height:200px;
+}
+.img2{
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 40px;
+margin-right: 40px;
+border:inset black 10px;
+width:300px;
+height:200px;
+}
+.img3{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border:inset black 10px;
+  width:300px;
+  height:300px;
+}
+.img4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border:inset black 10px;
+  width:300px;
+  height: 200px;
+}
+.figcaption{
+  font-size: 10px;
+  text-align: left;
+  color:purple
+}
+.footer{
+  font-size: 1em;
+  color:black;
+  text-align: center;
+}

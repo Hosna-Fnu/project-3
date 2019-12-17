@@ -1,0 +1,173 @@
+body{
+  padding: 10px;
+  box-sizing: border-box;
+}
+.p1{
+  background-color: DarkViolet;
+  padding: 12px;
+}
+.p2{
+  background-color: PeachPuff;
+  padding: 12px;
+}
+.p3{
+  background-color: Peru;
+  padding: 12px;
+}
+.p4{
+  background-color: rgb(128,128,64);
+  padding:12px;
+}
+.p5{
+  background-color: rgb(36,36,232);
+  padding:12px;
+}
+.p6{
+  background-color: rgb(128,0,255);
+  padding:12px;
+}
+.p7{
+  background-color: #9ACD32;
+  padding: 12px;
+}
+.p8{
+  background-color: #FFDAB9;
+  padding:12px;
+}
+.p9{
+  background-color: #B0E0E6;
+  padding:12px;
+}
+.p10{
+  background-color: rgb(128,128,64, 0.1);
+  padding: 12px;
+}
+.p11{
+  background-color: rgb(36,36,232, 0.5);
+  padding:12px;
+}
+.p12{
+  background-color: rgb(128,0,255, 1);
+  padding: 12px;
+}
+.gradient1{
+  height: 200px;
+  background-image: linear-gradient(black,DarkViolet);
+}
+.gradient2{
+  height: 200px;
+  background-image: linear-gradient(to top right, DarkViolet,peru);
+}
+img{
+  width:100%;
+  height:100%;
+}
+.img1{
+  width:600px;
+  height: 400px;
+  position: relative;
+}
+.roseTitle{
+  width: 300px;
+  position: absolute;
+  top:0px;
+  left: 135px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  position: absolute;
+color: white;
+}
+.container{
+  width:500px;
+  height:500px;
+  position: relative;
+}
+.txtRose{
+  width:200px;
+  position: absolute;
+  color: white;
+  font-size: 1.5em;
+  bottom: 200px;
+  right: 0px;
+  left: 430px;
+}
+.heroImage{
+  background-image: linear-gradient(to top left, rgb(36,36,232,0.7),  rgb(128,128,64,0.7)),url("images/rose.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 600px;
+  width: 900px;
+  position: relative;
+}
+.heroText{
+  width: 50%;
+  position: absolute;
+  left:25%;
+  bottom:30%;
+  color: white;
+  text-align: center;
+}
+.submit{
+  color:white;
+  text-decoration: none;
+  display:inline-block;
+  margin: 60px;
+  background-color:black;
+  padding: 20px;
+  border-radius: 10px;
+}
+.submit:hover{
+  background-color: white;
+  color:red;
+  box-shadow: 10px, 10px, 5px, 2px, red;
+}
+.filtercontainer{
+  height:1000px;
+  width:1000px;
+  margin:auto;
+  border:solid red;
+}
+.filtercontainer Img{
+  width:40%;
+  height:40%;
+  margin:20px;
+}
+.blur1{
+  filter: blur(1px);
+}
+.blur2{
+  filter: blur(5px);
+}
+.blur3{
+  filter:blur(10px);
+}
+.blur4{
+  filter:blur(20px);
+}
+/*CONTRAST FILTERS */
+.contrast1{
+  filter: contrast(0%);
+}
+.contrast2{
+  filter:contrast(30%);
+}
+.contrast3{
+  filter: contrast(60%);
+}
+.contrast4{
+  filter:contrast(100%);
+}
+.invert1{
+  filter:invert(0%);
+}
+.invert2{
+  filter:invert(20%);
+}
+.invert3{
+  filter: invert(60%);
+  }
+  .invert4{
+    filter:invert(100%);
+  }

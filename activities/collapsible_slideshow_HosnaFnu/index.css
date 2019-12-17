@@ -1,0 +1,40 @@
+body{
+  padding: 10px;
+}
+.collapseNYC{
+  background-color: lightblue;
+  padding: 20px;
+}
+.collapseNYC img{
+  width: 20%;
+  height: auto;
+  margin: 10px;
+}
+.collapseBar figure{
+  padding-top: 20px;
+}
+.collapseBar img{
+  width: 50%;
+}
+.carsouselSize{
+  width: 700px;
+  height: 600px;
+}
+.carsouselSize img{
+  width: 100%;
+  height: 100%;
+}
+.carsoulcontainer{
+  width: 720px;
+  overflow:hidden;
+}
+.captionCSS{
+  width: 30%;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: black;
+  margin-bottom: 100px;
+  margin-left:auto;
+  margin-right: auto;
+  font-size: 30px;
+}
