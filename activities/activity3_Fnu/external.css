@@ -9,7 +9,7 @@ h1{
   color:black;
   text-align: center;
   text-shadow:-20px -15px 7px purple;
-  font-family: fantasy;
+  font-family: inherit;
   font-size: 300%
 }
 .author{
@@ -32,10 +32,10 @@ p.intro{
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 40px;
-  margin-left: 100px;
+  margin-left: 10px;
   border:inset black 10px;
-  width: 300px;
-  height:200px;
+  width: 350px;
+  height:250px;
 }
 .img2{
 margin-top: 10px;
@@ -43,26 +43,17 @@ margin-bottom: 10px;
 margin-left: 40px;
 margin-right: 40px;
 border:inset black 10px;
-width:300px;
-height:200px;
+width:350px;
+height:250px;
 }
 .img3{
-  margin-top: 1px;
-  margin-bottom: 1px;
-  margin-left: 40px;
-  margin-right: 40px;
-  border:inset black 10px;
-  width:300px;
-  height:300px;
-}
-.img4{
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   margin-left: 40px;
-  margin-right: 40px;
-  border:inset black 10px;
+  margin-right: 5px;
+  border: inset black 10px;
   width:300px;
-  height: 200px;
+  height:200;
 }
 .figcaption{
   font-size: 10px;

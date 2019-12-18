@@ -16,6 +16,30 @@
      <title>Hosna Fnu</title>
 </head>
  <body data-spy="scroll" data-target="#navbar-site">
+   <body data-spy="scroll" data-target="#navbar-brand">
+   <!-- navbar with logo ond collapsible button -->
+   <nav class="navbar-nav bg-dark navbar-dark navbar-expand-md"></nav>
+   <a href="#" class="navbar-brand">
+             <!-- create a hamburger button to control the collapsible tab-->
+             <button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapseTab" aria-control="collapseTab"aria-expanded="false" aria-label="toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+             </button>
+             <div id="navbar-site" class="fixed-top navbar navbar-dark bg-dark navbar-expand-sm">
+             <div class="collapse navbar-collapse" id="collapseTab">
+             <div class="navbar-nav">
+               <a href="#About"class="nav-item nav-link active"> About</a>
+               <a href="#Web Technology projects" class="nav-item nav-link "> Web Technology projects<a>
+               <a href="#Class activities"class="nav-item nav-link"> Class Activities</a>
+               <a href="#Contacts"class="nav-item nav-link"> Contacts</a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <br><hr>
+
+
+
     <div class="container1" id="Introduction">
       <div class="zoomimage">
         <img class="img1"src="images/pic.jpg" alt="my picture" title="my graduation picture">
@@ -23,53 +47,36 @@
       <br>
       <div class="container">
       <div class="jumbotron">
-        <p> <h3 align="center" class="Name" class="animated bounce infinate" id=animated-textmove> <b>Hosna Fnu</b></h3>
+        <p> <h3 align="center" class="Name" class="animated bounce infinate" id=swing> <b>Hosna Fnu</b></h3>
         <br>
         <p>I am a Internet and Information Technolgy student. One of my career goals is that I want to become one of the best web developer and web designer. One of my goals that I want to achieve in the future is that I want to create one of the biggest technology company, So that I can help educate people in many fields especially <i>Teachnology.</i></p>
       </div>
     </div>
   </div>
     <br>
-
-
- <!-- navbar with logo ond collapsible button -->
-           <!-- create a hamburger button to control the collapsible tab-->
-           <button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapseTab" aria-control="collapseTab"aria-expanded="false" aria-label="toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-           </button>
-           <div id="navbar-site" class="fixed-top navbar navbar-dark bg-dark navbar-expand-sm">
-         <div class="collapse navbar-collapse" id="collapseTab">
-           <div class="navbar-nav">
-             <a href="#About"class="nav-item nav-link active"> About</a>
-             <a href="#Web Technology projects" class="nav-item nav-link "> Web Technology projects<a>
-             <a href="#Class activities"class="nav-item nav-link"> Class Activities</a>
-             <a href="#Contacts"class="nav-item nav-link"> Contacts</a>
-
-           </div>
-         </div>
-       </div>
-
-     <br><hr>
      <!--  slideshow -->
-<div class=" carousel slide carouselContainer" data-ride="carousel" id="slideshow">  <!-- slideshow Container -->
+<div class=" carousel slide carouselContainer active" data-ride="carousel" id="slideshow">  <!-- slideshow Container -->
     <div class="carousel-item active carouselSize">
-      <img src="images/html.png" alt="HTML by Atom App"title="HTML by Atom App" class="img-thumbnail">
-      <div class="carousel-caption"> HTML by Atom App </div>
+      <img src="images/710.png" alt="Web Tech I"title="Web Tech I" class="img-thumbnail">
+      <div class="carousel-caption captionCSS"><b>Web Technolody I</b><br> At this course, I learned how to create websites using current web design, HTML, CSS, and bootstrap patterns and publish them to the public internet.</div>
+    </div>
+
+    <div class="carousel-item carouselSize ">
+      <img src="images/html.png" alt="HTML"title="HTML" class="img-thumbnail">
+      <div class="carousel-caption captionCSS">
+      <b>HTML</b> "HyperText Markup Language"<br>At the begining of the course I learned to create structures using only HTML.<br><br><a href="Project1_HosnaFnu_Final/index.html"><div class="project1"><b>Visit my HTML Project</b></div></div>
     </div>
 
     <div class="carousel-item carouselSize">
-      <img src="images/css.jpg" alt="Bootstrap Logo"title="Bootstrap Logo" class="img-thumbnail">
-      <div class="carousel-caption-captionCSS"> CSS by Atom App </div>
+      <img src="images/css.jpg" alt="CSS"title="CSS" class="img-thumbnail">
+      <div class="carousel-caption captionCSS">
+      <b>CSS</b> "Cascading Style Sheet"<br> After we learned how to build a HTML structure, we were later introduced to CSS and how to do it to style elements.<br><br><a href="Project2_HosnaFnu_Final/index.html"><div class="p2"><b>Visit my CSS Project</b></div></div>
     </div>
 
     <div class="carousel-item carouselSize">
       <img src="images/bootstrap.jpg" alt="CSS by Atom App"title="CSS by Atom App" class="img-thumbnail">
-      <div class="carousel-caption-captionCSS"> CSS by Atom App </div>
-    </div>
-
-    <div class="carousel-item carouselSize">
-      <img src="images/css.jpg" alt="CSS by Atom App"title="CSS by Atom App" class="img-thumbnail">
-      <div class="carousel-caption-captionCSS"> Bootstrap Logo </div>
+      <div class="carousel-caption captionCSS">
+      <h5>Bootstrap 4</h5> After we understood and know how to work with HTML and CSS, we started to learn how to use classes in bootstrap 4. bootstrap is the most popular HTML, CSS, and Javascript framework for developing responsive, mobile-first websites.<br><br><a href="project3/activity webpage"><div class="boot"><b>Visit my Class Activities</b></div></div>
     </div>
 
 <!-- left and right control -->
@@ -90,7 +97,7 @@
 <!-- web Technology project -->
 <div class="container2">
     <div class="col-md">
-      <div class="bgc ">
+      <div class="bgc">
       <h2>Web Technology Projects</h2>
     </div>
 <div class="row" id="Web Technology projects">
@@ -100,8 +107,9 @@
  <img class="invert1" src="images/project1.jpg" alt="Project #1" title="Project #1" style="width:100%;" >
  <br><br>
  <h3 align="center">HTML project: Dreaming Places</h3>
- </div></a>
+</div></a>
  </div>
+
 
   <div class="col-md-6">
     <div class="card5">
@@ -114,11 +122,13 @@
   </div>
    </div>
     <!--  end of web Technology project -->
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 <!-- Class activities -->
+<br>
 <div class="bgc">
 <h2>Class Activities</h2>
+</div>
 </div>
 <div class="row" id="Class activities">
  <div class="col-md-4">
@@ -181,15 +191,15 @@
  <div class="backgroundcolor" id="Contacts">
 <div class="con1">
  <p align="center"> <b>PHONE NUMBER</b> </p>
- <p align="center">646-639-0768</p>
+ <p align="center">881-699-0898</p>
 </div>
 <div class="con2">
  <p align="center"> <b>EMAIL</b> </p>
- <p align="center"> <a  target="_blank" title="Email">hosna0014@gmail.com</a></p>
+ <p align="center"> <a  target="_blank"title="Email">hosna0014@gmail.com</a></p>
 </div>
 <div class="con3">
  <p align="center"> <b>ADDRESS</b> </p>
- <p align="center">222-05, 56th avenue Bayside, NY 11364
+ <p align="center">222-05 56th Avenue Bayside, NY 11364
 </p>
 </div>
 <div class="con4">
